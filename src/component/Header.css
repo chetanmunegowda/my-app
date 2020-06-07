@@ -1,0 +1,10 @@
+.header-container h1 {
+  margin: 0;
+  padding: 20px 0 20px 40px !important;
+  letter-spacing: 0.2em;
+  font-size: 3.5rem;
+  line-height: 1.6;
+  font-style: italic;
+  background: rgb(0,0,10);;
+  color: rgb(255,255,255);
+}

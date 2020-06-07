@@ -1,0 +1,14 @@
+.skills-container h2 {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.skills-container ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  line-height: 1.6;
+}

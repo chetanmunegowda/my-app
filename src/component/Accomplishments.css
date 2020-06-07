@@ -1,0 +1,15 @@
+.accomplishments-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0 20px 40px !important;
+}
+
+.accomplishments-container h2 {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.accomplishments-container-item {
+  margin-top: 10px;
+}

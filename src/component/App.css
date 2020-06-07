@@ -1,0 +1,17 @@
+.App {
+  font-family: "Cambria";
+  font-style: normal;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-col-container {
+  width: 70%;
+}
+
+.second-col-container {
+  width: 28%;
+}

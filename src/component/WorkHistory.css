@@ -1,0 +1,19 @@
+.work-history-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0 20px 40px !important;
+}
+
+.work-history-container h2 {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.work-history-container-item {
+  display: flex;
+}
+
+.work-history-container-item-info {
+  padding-left: 20px;
+}
