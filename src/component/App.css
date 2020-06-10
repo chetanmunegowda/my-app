@@ -1,5 +1,5 @@
 .App {
-  font-family: "Cambria";
+  font-family: "MeretPro,sans-serif";
   font-style: normal;
 }
 
@@ -9,9 +9,47 @@
 }
 
 .first-col-container {
-  width: 70%;
+  width: 63%;
 }
 
 .second-col-container {
-  width: 28%;
+  margin-left: 2%;
+  width: 27%;
+  margin-right: 3%;
 }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .content-container {
+    display: flex;
+  }
+
+  .first-col-container {
+    width: 50%;
+    margin-right: 3%;
+  }
+
+  .second-col-container {
+    margin-left: 2%;
+    width: 50%;
+    margin-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-col-container {
+    width: 100%;
+    margin-right: 3%;
+  }
+
+  .second-col-container {
+    padding-left: 25px;
+    width: 100%;
+    margin-right: 3%;
+  }
+}
+

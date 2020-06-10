@@ -11,7 +11,6 @@ export default class Accomplishments extends React.Component {
     return (
       <div className="accomplishments-container">
         <h2>Accomplishments</h2>
-        <></>
         <ul className="accomplishments-container-item">
           {
             accomplishments.map((val, index) => (
